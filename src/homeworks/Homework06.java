@@ -10,7 +10,9 @@ public class Homework06 {
         int clientAge5 = 30;
         String rightAction = cashiersAction(clientAge1);
         System.out.println(rightAction);
+
         split();
+
         int month1 = 1;
         int month2 = 1;
         int month3 = 2;
