@@ -4,8 +4,6 @@ public class HelloIfElse {
     public static void main(String[] args) {
         int customerAge = 15;
         alcoholPermissionTwo(customerAge);
-
-
         helloIf();
     }
 
@@ -20,7 +18,6 @@ public class HelloIfElse {
         }
 
     }
-
 
     public static void helloIf(){
         //boolean permission = false;

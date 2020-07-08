@@ -4,19 +4,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        byte a = (byte) (30 + 100);
-        int b = 1 / 10;
-        int c = 5 / 2;
-        char tabulator = '\t';
-        char zahl = 100;
-        System.out.println(zahl);
-        boolean bool = 3 + 4 > 9 + 1 & 16 - 5 > 3 * 4;
-        System.out.println(bool);
 
-        System.out.println(c);
-        System.out.println(tabulator);
-        System.out.println(b);
-        System.out.println(a);
     }
 
     public static void customerInfo() {
