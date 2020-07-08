@@ -1,4 +1,4 @@
-package lesson08;
+package lesson09;
 
 public class BMI {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lesson08;
+package lesson09;
 
 public class Classwork09 {
     public static void main(String[] args) {
@@ -7,8 +7,7 @@ public class Classwork09 {
         //System.out.println(findNumber1(a, b));
         System.out.println(findNumber2(a, b));
         split();
-        System.out.println(getStringMonth(a ));
-
+        System.out.println(getStringMonth(a));
     }
 
     private static void split() {
@@ -30,7 +29,7 @@ public class Classwork09 {
         return a + b;
     }
 
-    public static String  getStringMonth (int month ) {
+    public static String getStringMonth(int month) {
         String monthString = "";
         switch (month) {
             case 1:
@@ -75,6 +74,4 @@ public class Classwork09 {
         }
         return monthString;
     }
-
-
 }

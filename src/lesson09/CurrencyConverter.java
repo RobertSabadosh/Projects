@@ -1,4 +1,4 @@
-package lesson08;
+package lesson09;
 
 public class CurrencyConverter {
     public static void main(String[] args) {
@@ -7,7 +7,6 @@ public class CurrencyConverter {
         System.out.println(findTwoCurrencyCourse("USD", "BYN"));
         split();
         System.out.println(findCurrencySum(100, "EUR", "UAH"));
-
     }
 
     private static void split() {
