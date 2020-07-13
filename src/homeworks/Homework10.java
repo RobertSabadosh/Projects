@@ -1,6 +1,6 @@
 package homeworks;
 
-public class homework10 {
+public class Homework10 {
     public static void main(String[] args) {
         System.out.println(startWithHi("hi there")); // expecting true
         System.out.println(startWithHi("hi"));       // expecting true
@@ -18,7 +18,7 @@ public class homework10 {
     public static boolean startWithHi(String str) {
         if (str.length() < 2)
             return false;
-        
+
         String firstTwo = str.substring(0, 2);
         if (firstTwo.equals("hi")) {
             return true;
@@ -28,7 +28,7 @@ public class homework10 {
     }
 
     public static boolean hasTeen(int a, int b, int c) {
-        return (a >= 13 && a <= 20 || b >= 13 && b <= 20 || c >= 13 && c <= 20);
+        return (a >= 13 && a <= 19 || b >= 13 && b <= 19 || c >= 13 && c <= 19);
     }
 
    /* public static boolean startWithHi2(String str) {
