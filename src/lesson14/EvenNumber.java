@@ -5,7 +5,6 @@ public class EvenNumber {
     public static void main(String[] args) {
 
         lstMeEvenNumber(45);
-
     }
 
     public static void listMeOddNumber(int range){

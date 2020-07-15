@@ -12,8 +12,8 @@ public class Classwork {
 
     }
 
-    public static int sum(int number){
-        
+    public static int sum(int number) {
+
         return 0;
     }
 

@@ -40,6 +40,4 @@ public class MyLovelyPrimeNumber {
                 System.out.println(i);
         }
     }
-
-
 }
