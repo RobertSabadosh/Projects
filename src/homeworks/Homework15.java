@@ -90,15 +90,16 @@ public class Homework15 {
         return str.replace("is", "was");
     }
 
-    public static boolean mainWord(String str){
-        return str.startsWith("Hola");
+    public static boolean mainWord(String str) {
+        String start = "Hola";
+        return str.startsWith(start);
     }
 
     public static String left2(String str) {
-        return str.substring(2) + str.substring(0,2);
+        return str.substring(2) + str.substring(0, 2);
     }
 
-    public static String caseChangeOne(){
+    public static String caseChangeOne() {
         String str1 = "I LOVE JAVA!!!";
         String str2 = "I`LL BE back";
         String str3 = "How can I help You?";
@@ -112,7 +113,7 @@ public class Homework15 {
         return str1.toUpperCase() + '\n' + str2.toUpperCase() + '\n' + str3.toUpperCase();
     }
 
-    public static String cutOffIndention(){
+    public static String cutOffIndention() {
         String str1 = "   Hello world!!!  ";
         String str2 = "   Hello world!!!  ";
         return str1 + '\n' + str2.trim();
