@@ -1,6 +1,7 @@
 package homeworks;
 
 public class UniversalMethod {
+
     public static void main(String[] args) {
         split();
     }
