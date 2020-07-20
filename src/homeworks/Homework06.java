@@ -35,7 +35,7 @@ public class Homework06 {
     }
 
     public static String cashiersAction(int clientAge) {
-        String result = "";
+        String result;
 
         switch (clientAge) {
             case 10:
