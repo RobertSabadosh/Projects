@@ -2,7 +2,7 @@ package lesson19;
 
 public class CheckString {
     public static void main(String[] args) {
-
+        checkStringCyrillic("А роза упала на лапу Азора");
     }
 
     public static void checkStringCyrillic(String s){

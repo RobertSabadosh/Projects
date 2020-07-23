@@ -13,6 +13,8 @@ public class Homework13 {
         primeNumbers();
         split();
         evenNumbers();
+        split();
+        findMagicNumber();
     }
 
     public static void isLeapYear(int year) {
@@ -41,6 +43,14 @@ public class Homework13 {
         for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0)
                 System.out.println(i);
+        }
+    }
+
+    public static void findMagicNumber() {
+        for (int i = 0; i < 3000; i++) {
+            if (i % 32 == 30 && i % 58 == 44) {
+                System.out.println(i);
+            }
         }
     }
 

@@ -6,7 +6,9 @@ public class Homework18 {
 
     public static void main(String[] args) {
 
-        numbers(3, 5);
+        numbers(5, 5);
+        split();
+        numbers2(10,10);
         split();
         betweenAandB(5, 17);
         split();
@@ -22,6 +24,14 @@ public class Homework18 {
     public static void numbers(int a, int b) {
         for (int i = 0; i < b; i++) {
             System.out.println(a);
+        }
+    }
+
+    public static void numbers2(int a, int b){
+        if (b>0){
+            for (int i = 0; i < b; i++) {
+                System.out.println(a);
+            }
         }
     }
 
