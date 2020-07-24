@@ -1,0 +1,14 @@
+86 mkdir -p /home/animals/dogs
+  87 mkdir -p /home/animals/cats
+  88 mkdir -p /home/animals/fish
+  89 touch /home/animals/dogs/pluto
+  90 touch /home/animals/cats/garfield
+  91 touch /home/animals/fish/nemo
+  92 touch /tmp/adam
+  93 mkdir -p /home/humans
+  94 cp /tmp/adam /home/humans/
+  95 touch /tmp/evA
+  96 mv /tmp/evA /tmp/eve
+  97 mv /tmp/eve /opt/
+  98 mv /opt/eve /home/humans/
+  99 ls /home/humans/
