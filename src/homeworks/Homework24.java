@@ -26,7 +26,7 @@ public class Homework24 {
 
         if (ab == 10 || bc == 10 || ac == 10) {
             return 10;
-        }else if (ab - bc == 10 || ab - ac == 10) {
+        } else if (ab - bc == 10 || ab - ac == 10) {
             return 5;
         }
         return 0;
@@ -38,7 +38,7 @@ public class Homework24 {
         } else if (you >= 8 || date >= 8) {
             return 2;
         }
-            return 1;
+        return 1;
     }
 
     private static int sortaSum(int a, int b) {
