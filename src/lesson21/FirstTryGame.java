@@ -6,7 +6,7 @@ public class FirstTryGame {
 
     public static void main(String[] args) {
         //helloUser();
-        //ystem.out.print("Hello World");
+        //system.out.print("Hello World");
         //Scanner input=new Scanner(System.in);
         findNumber(100);
     }
