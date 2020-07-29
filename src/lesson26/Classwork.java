@@ -6,7 +6,7 @@ public class Classwork {
 
     public static void main(String[] args) {
 
-        System.out.println(countYZ("fez day")); // 2
+        /*System.out.println(countYZ("fez day")); // 2
         System.out.println(countYZ("day fez")); // 2
         System.out.println(countYZ("day fyyyz")); // 2
         System.out.println(countYZ("tel ran")); // 0
@@ -19,7 +19,7 @@ public class Classwork {
         split();
         System.out.println(sameStarChar("xy*yzz")); // true
         System.out.println(sameStarChar("xy*zzz")); // false
-        System.out.println(sameStarChar("*xa*az")); // true
+        System.out.println(sameStarChar("*xa*az")); // true*/
         split();
         System.out.println(starOut("ab*cd")); // "ad"
         System.out.println(starOut("ab**cd")); // "ad"
