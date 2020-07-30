@@ -6,24 +6,24 @@ public class Classwork {
 
     public static void main(String[] args) {
 
-        /*System.out.println(countYZ("fez day")); // 2
-        System.out.println(countYZ("day fez")); // 2
-        System.out.println(countYZ("day fyyyz")); // 2
-        System.out.println(countYZ("tel ran")); // 0
-        System.out.println(countYZ("xyx xzy")); // 1
-        System.out.println(countYZ("London is the capital of Great Britain")); // 0
-        split();
-        System.out.println(gHappy("xxggxx")); // true
-        System.out.println(gHappy("xxgxx")); // false
-        System.out.println(gHappy("xxggyygxx")); // false
+//        System.out.println(countYZ("fez day")); // 2
+//        System.out.println(countYZ("day fez")); // 2
+//        System.out.println(countYZ("day fyyyz")); // 2
+//        System.out.println(countYZ("tel ran")); // 0
+//        System.out.println(countYZ("xyx xzy")); // 1
+//        System.out.println(countYZ("London is the capital of Great Britain")); // 0
+//        split();
+//        System.out.println(gHappy("xxggxx")); // true
+//        System.out.println(gHappy("xxgxx")); // false
+//        System.out.println(gHappy("xxggyygxx")); // false
         split();
         System.out.println(sameStarChar("xy*yzz")); // true
         System.out.println(sameStarChar("xy*zzz")); // false
-        System.out.println(sameStarChar("*xa*az")); // true*/
+        System.out.println(sameStarChar("*xa*az")); // true
         split();
-        System.out.println(starOut("ab*cd")); // "ad"
-        System.out.println(starOut("ab**cd")); // "ad"
-        System.out.println(starOut("sm*eilly")); // "silly"
+//        System.out.println(starOut("ab*cd")); // "ad"
+//        System.out.println(starOut("ab**cd")); // "ad"
+//        System.out.println(starOut("sm*eilly")); // "silly"
 
     }
 
@@ -71,6 +71,8 @@ public class Classwork {
     public static boolean sameStarChar(String str) {
         for (int i = 1; i < str.length() - 1; i++) {
             if (str.charAt(i) == '*' && str.charAt(i - 1) == str.charAt(i + 1)) {
+                /*if (str.charAt(i) == '*' && str.charAt(i - 1) != str.charAt(i + 1))
+                    return false;*/
                 return true;
             }
         }
