@@ -1,0 +1,21 @@
+--- /home/user/start/sed.txt
++++ /opt/task/start.txt
+@@ -1,10 +1,10 @@
+ Start
+ Sat Aug  1 00:59:12 UTC 2020
+-dr-xr-xr-x   40 Mr.Robot     Mr.Robot             0 Aug  1 00:56 proc
+-drwx------    3 Mr.Robot     Mr.Robot           161 Sep 15  2019 Mr.Robot
+-drwxr-xr-x    3 Mr.Robot     Mr.Robot           120 Aug  1 00:56 run
+-drwxr-xr-x    2 Mr.Robot     Mr.Robot          1665 Jan 29  2020 sbin
+-dr-xr-xr-x   12 Mr.Robot     Mr.Robot             0 Aug  1 00:56 sys
+-drwxrwxrwt    3 Mr.Robot     Mr.Robot            92 Sep 15  2019 tmp
+-drwxr-xr-x   11 Mr.Robot     Mr.Robot           273 Sep 15  2019 usr
+-drwxr-xr-x    5 Mr.Robot     Mr.Robot           221 Sep 15  2019 var
++dr-xr-xr-x   40 Mr.Robert     Mr.Robert             0 Aug  1 00:56 proc
++drwx------    3 Mr.Robert     Mr.Robert           161 Sep 15  2019 Mr.Robert
++drwxr-xr-x    3 Mr.Robert     Mr.Robert           120 Aug  1 00:56 run
++drwxr-xr-x    2 Mr.Robert     Mr.Robert          1665 Jan 29  2020 sbin
++dr-xr-xr-x   12 Mr.Robert     Mr.Robert             0 Aug  1 00:56 sys
++drwxrwxrwt    3 Mr.Robert     Mr.Robert            92 Sep 15  2019 tmp
++drwxr-xr-x   11 Mr.Robert     Mr.Robert           273 Sep 15  2019 usr
++drwxr-xr-x    5 Mr.Robert     Mr.Robert           221 Sep 15  2019 var

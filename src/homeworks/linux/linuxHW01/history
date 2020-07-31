@@ -1,0 +1,14 @@
+1 mkdir -p /home/user/start
+2 touch /home/user/start/1.txt
+3 vi /home/user/start/1.txt
+4 date >> /home/user/start/1.txt
+5 mkdir -p /opt/task
+6 cp /home/user/start/1.txt /opt/task/start.txt
+7 ls -la / | tail -8 >> /opt/task/start.txt
+8 vi /opt/task/start.txt
+9 export_file /opt/task/start.txt
+10 sed -i s/Mr.Robert/root/g /opt/task/start.txt
+11 sed s/root/Mr.Robot/g /opt/task/start.txt > /home/user/start/sed.txt
+12 export_file /home/user/start/sed.txt
+13 diff /home/user/start/sed.txt /opt/task/start.txt > /opt/task/comparing.txt
+14 export_file /opt/task/comparing.txt
