@@ -40,7 +40,7 @@ public class Homework31 {
     }
 
     public static int[] reverse3Two(int[] b) {
-        int[] arr = new int[3];
+        int[] arr = new int[b.length];
         for (int i = 0; i < b.length; i++) {
             arr[i] = b[b.length - 1 - i];
         }
@@ -55,7 +55,7 @@ public class Homework31 {
         return new int[]{a[a.length / 2], b[b.length / 2]};
     }
 
-    /*public static void printArray(int arr[]) {
+    /*public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + "\t");
         }
