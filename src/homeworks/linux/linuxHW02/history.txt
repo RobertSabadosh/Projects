@@ -4,6 +4,7 @@
   638  df -h | grep "/" | awk '{print $5}' >> file.txt 
   639  history | tail -5 >> file.txt 
   640  cat /proc/cpuinfo | grep vendor >> file.txt 
-  641  vi file.txt 
+  641  vi file.txt
+  642  ps -ef
   642  ps -ef | grep Tel-ran. | wc -l >> file.txt 
-  643  history | tail -9 > history.txt
+  643  history | tail -10 > history.txt
