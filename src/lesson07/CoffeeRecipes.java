@@ -20,7 +20,7 @@ public class CoffeeRecipes {
         System.out.println("---------------------");
     }
 
-    public static void hotWater(){
+    public static void hotWater() {
         System.out.println("---------------------");
         System.out.println("Ваш кипяток готов");
        /* milk(0);
@@ -37,7 +37,6 @@ public class CoffeeRecipes {
         water(50);
         System.out.println("---------------------");
     }
-
 
     public static void milk(int ml) {
         System.out.printf("Added %d ml of milk \n", ml);
