@@ -1,0 +1,14 @@
+ 7 авг 2020 г. 22:18:16
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  238G  116G  123G  49% /
+123G
+  635  cd home/
+  636  date > file.txt
+  637  df -h / >> file.txt 
+  638  df -h | grep "/" | awk '{print $5}' >> file.txt 
+  639  history | tail -5 >> file.txt 
+vendor_id
+vendor_id
+vendor_id
+vendor_id
+4

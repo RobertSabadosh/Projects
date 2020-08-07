@@ -1,6 +1,3 @@
-package lesson34;
-
-
 public class CoffeeVendingMachine {
     public static void main(String[] args) {
         String input = args[0];
@@ -18,7 +15,7 @@ public class CoffeeVendingMachine {
                 CoffeeRecipes.americano();
                 break;
             default:
-                System.out.println("please choose again");
+                System.out.println("repeat your choose");
                 break;
         }
     }

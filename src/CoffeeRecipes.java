@@ -1,5 +1,3 @@
-package lesson34;
-
 public class CoffeeRecipes {
 
     public static void latte() {

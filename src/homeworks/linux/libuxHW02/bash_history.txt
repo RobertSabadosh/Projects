@@ -1,0 +1,4 @@
+  663  vi myfirstbashscript.sh
+  664  ./myfirstbashscript.sh > bashscript_result1.txt
+  665  ./myfirstbashscript.sh > bashscript_result2.txt
+  666  history | tail -4 > bash_history.txt
