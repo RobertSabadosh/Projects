@@ -1,6 +1,6 @@
 package lesson03;
 
-public class MagicDouble {
+public class MagicDoubleRandom {
 
     public static void main(String[] args) {
         int min = 30;
