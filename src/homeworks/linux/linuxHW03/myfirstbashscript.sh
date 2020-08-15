@@ -1,7 +1,10 @@
 #!/bin/bash
+USER=Robert
+
+
 date
 sleep 1
-echo 'Hello Robert!'
+echo Hello $USER!
 sleep 1
 pwd
 sleep 1
