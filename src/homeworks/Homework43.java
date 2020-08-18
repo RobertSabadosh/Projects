@@ -51,7 +51,6 @@ public class Homework43 {
     }
 
     public static byte[] cocktailSort(byte[] array) {
-        byte count = 0;
         byte start = 0;
         byte end = (byte) (array.length - 1);
         while (start <= end) {
@@ -74,7 +73,6 @@ public class Homework43 {
                 }
             }
             start++;
-            count++;
             if (!swapped) {
                 break;
             }
