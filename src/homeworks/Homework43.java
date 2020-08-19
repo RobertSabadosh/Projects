@@ -9,10 +9,11 @@ public class Homework43 {
         byte arr[] = createMyByteArray(10);
         System.out.println("Original array " + Arrays.toString(arr));
         split();
+        byte[] shadowArr = arrayShadowCloningTechnique(arr);
         bubbleSort(arr);
         System.out.println("Sorted array with bubble sort " + Arrays.toString(arr));
         split();
-        System.out.println("Copied array using array shadow cloning technique " + Arrays.toString(arrayShadowCloningTechnique(arr)));
+        System.out.println("Copied array using array shadow cloning technique " + Arrays.toString(arrayShadowCloningTechnique(shadowArr)));
         split();
         System.out.println("Sorted array with cocktail sort " + Arrays.toString(cocktailSort(arr)));
 
