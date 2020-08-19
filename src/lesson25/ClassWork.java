@@ -5,7 +5,6 @@ public class ClassWork {
 
         int myLovelyBinaryDigit = 0b0100_1110;
         System.out.println(convertToDecimal(myLovelyBinaryDigit));
-
     }
 
     public static int convertToDecimal(int binaryDigit) {

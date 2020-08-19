@@ -1,7 +1,9 @@
 package lesson02;
 
 public class HelloInteger {
+
     public static void main(String[] args) {
+
         //goodMorningInteger();
         findSquare();
     }

@@ -3,9 +3,8 @@ package homeworks;
 public class UniversalMethod {
 
     public static void main(String[] args) {
+
         split();
-        /*int[] myArray = new int[0];
-        myArrayPrint(myArray);*/
     }
 
     public static void split() {

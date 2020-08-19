@@ -3,7 +3,8 @@ package lesson15;
 public class StringReview {
 
     public static void main(String[] args) {
-/*        review1();
+
+/*      review1();
         split();
         review2();
         split();
@@ -37,7 +38,6 @@ public class StringReview {
         System.out.println(result);
     }
 
-
     // compareTo(String anotherString) - пример использования
     public static void review8() {
         String str1 = "Строка для теста";
@@ -54,7 +54,6 @@ public class StringReview {
         System.out.println(result);
     }
 
-
     //codePointCount(int beginIndex, int endIndex) - пример использования
     public static void review7() {
         String str = "Мы учимся в школе Телран онлайн";
@@ -62,14 +61,11 @@ public class StringReview {
         System.out.println(cpc);
     }
 
-
     // codePointBefore(int index) - пример использования
     public static void review6() {
         String str = "I love Java";
         System.out.println(str.codePointBefore(5));
-
     }
-
 
     // codePointAt(int index) - пример использования
     public static void review5() {
@@ -87,8 +83,7 @@ public class StringReview {
         System.out.println(test);
     }
 
-
-    //charat
+    //charAt
     public static void review3() {
         String name = "Andrej";
         char myChar = name.charAt(2);

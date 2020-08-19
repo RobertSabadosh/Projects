@@ -7,7 +7,6 @@ public class HW26 {
         System.out.println(starOut("ab*cd")); // "ad"
         System.out.println(starOut("ab**cd")); // "ad"
         System.out.println(starOut("sm*eilly")); // "silly"
-
     }
 
     /*Return a version of the given string, where for every star () in the string the star and the chars immediately to its left and right

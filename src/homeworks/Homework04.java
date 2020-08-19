@@ -3,6 +3,7 @@ package homeworks;
 public class Homework04 {
 
     public static void main(String[] args) {
+
         presentation();
         split();
         fullInfo();
@@ -10,10 +11,9 @@ public class Homework04 {
         noEntry();
         split();
         toUpperCase();
-
     }
 
-    private static void split() {
+    public static void split() {
         System.out.println("-------------------------------------");
     }
 
@@ -47,9 +47,9 @@ public class Homework04 {
     public static void noEntry(){
         String origin = "Вход разрёшен";
         //String alternativeOption = "воспрещён";
-        int dlina = origin.length();
+        int length = origin.length();
         System.out.println(origin);
-        System.out.println(dlina);
+        System.out.println(length);
 
         String changed = origin.substring(0,5) + "воспрещён";
         //String changed2 = origin.substring(0,5) + alternativeOption;
@@ -62,5 +62,4 @@ public class Homework04 {
         str = str.toUpperCase();
         System.out.println(str);
     }
-
 }

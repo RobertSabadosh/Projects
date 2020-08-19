@@ -3,6 +3,7 @@ package lesson39;
 public class MyLovelyMath {
 
     public static void main(String[] args) {
+
         double pi = 2.5;
         double pi1 = Math.round(pi);
         double pi2 = Math.ceil(pi);
@@ -17,6 +18,6 @@ public class MyLovelyMath {
         int age = 34;
     }
 
-    private static void myLovelyMethod(String username, String userSecondName, int age) {
+    public static void myLovelyMethod(String username, String userSecondName, int age) {
     }
 }

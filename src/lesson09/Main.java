@@ -1,7 +1,9 @@
 package lesson09;
 
 public class Main {
+
     public static void main(String[] args) {
+
         int a = 5;
         int b = 3;
         //a = a + b;
@@ -21,8 +23,5 @@ public class Main {
 
         d %= a;
         System.out.println(d);
-
-
     }
-
 }

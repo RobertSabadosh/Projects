@@ -46,7 +46,6 @@ public class Homework15 {
         split();
         System.out.println(cutOffIndention());
 
-
     }
 
     public static boolean ItIsInside(String str) {

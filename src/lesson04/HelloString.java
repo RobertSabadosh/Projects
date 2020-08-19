@@ -1,7 +1,9 @@
 package lesson04;
 
 public class HelloString {
+
     public static void main(String[] args) {
+
         //gutenTagString();
         myLovelyCharAndString();
     }
@@ -28,7 +30,7 @@ public class HelloString {
         System.out.println("Это что длина? " + dlina);
         String myVeryNewString = studentNumberOne.substring(10);
         System.out.println(myVeryNewString);
-        myVeryNewString = studentNumberOne.substring(3,8);
+        myVeryNewString = studentNumberOne.substring(3, 8);
         System.out.println(myVeryNewString);
     }
 }

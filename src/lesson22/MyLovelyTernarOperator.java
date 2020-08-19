@@ -5,10 +5,9 @@ public class MyLovelyTernarOperator {
     public static void main(String[] args) {
 
         test1();
-
     }
 
-    private static void test1() {
+    public static void test1() {
         int a = 10;
         int b = 20;
         int c;

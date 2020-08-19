@@ -8,7 +8,6 @@ public class Palindrome {
         System.out.println(checkPalindrome("поп")); // expecting true
         System.out.println(checkPalindrome("школа")); // expecting false
         //System.out.println(deleteSpace("А роза упала на лапу Азора"));
-
     }
 
     public static boolean checkPalindrome(String input) {

@@ -14,7 +14,6 @@ public class Loops {
             System.out.println("Внешний круг");
             for (int j = 0; j < 6; j++) {
                 System.out.println("Пирожки " + j);
-
             }
         }
     }

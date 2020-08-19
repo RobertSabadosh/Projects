@@ -3,6 +3,7 @@ package lesson15;
 public class WarmUpExercises {
 
     public static void main(String[] args) {
+
         // findHappyDumpling();
         //  findVariables();
         // myLine();
@@ -29,7 +30,6 @@ public class WarmUpExercises {
         return result;
     }
 
-
     public static void fibonacci() {
         int n0 = 1;
         int n1 = 1;
@@ -42,7 +42,6 @@ public class WarmUpExercises {
             n1 = n2;
         }
     }
-
 
     public static void findHappyDumpling() {
         for (int i = 1; i < 10; i++) {

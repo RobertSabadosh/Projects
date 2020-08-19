@@ -39,8 +39,8 @@ public class MagicArray {
     }
 
     public static int[] bubbleSort(int[] myArray) {
-        int count =1;
-        while (count>0) {
+        int count = 1;
+        while (count > 0) {
             count = 0;
             for (int j = 0; j < myArray.length - 1; j++) {
                 if (myArray[j] > myArray[j + 1]) {

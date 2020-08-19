@@ -1,7 +1,9 @@
 package lesson09;
 
 public class Classwork09 {
+
     public static void main(String[] args) {
+
         int a = 7;
         int b = 15;
         //System.out.println(findNumber1(a, b));
@@ -10,7 +12,7 @@ public class Classwork09 {
         System.out.println(getStringMonth(a));
     }
 
-    private static void split() {
+    public static void split() {
         System.out.println("---------------------");
     }
 

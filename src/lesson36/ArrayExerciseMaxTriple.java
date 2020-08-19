@@ -10,7 +10,6 @@ public class ArrayExerciseMaxTriple {
         System.out.println(maxTriple(a1)); // 3
         System.out.println(maxTriple(a2)); // 5
         System.out.println(maxTriple(a3)); // 5
-
     }
 
     /*Given an array of ints of odd length, look at the first, last, and middle values in the array and return the largest. The array

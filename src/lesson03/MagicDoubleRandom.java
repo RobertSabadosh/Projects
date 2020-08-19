@@ -3,6 +3,7 @@ package lesson03;
 public class MagicDoubleRandom {
 
     public static void main(String[] args) {
+
         int min = 30;
         int max = 100;
         int result0 = (int) ((Math.random() * ((max - min) + 1)) + min);

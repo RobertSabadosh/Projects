@@ -1,6 +1,7 @@
 package lesson04;
 
 public class Calculator {
+
     public static int addition(int перваяПеременная, int b) {
         return перваяПеременная + b;
     }

@@ -3,12 +3,12 @@ package homeworks;
 public class Homework02 {
 
     public static void main(String[] args) {
+
         areaAndPerimeterOfSquare();
         System.out.println("-------------------------------------------");
         areaAndPerimeterOfRectangle();
         System.out.println("-------------------------------------------");
         areaAndPerimeterOfCube();
-
     }
 
     public static void areaAndPerimeterOfSquare() {
@@ -41,4 +41,3 @@ public class Homework02 {
     }
 
 }
-

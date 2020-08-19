@@ -1,7 +1,9 @@
 package homeworks;
 
 public class Homework07 {
+
     public static void main(String[] args) {
+
         System.out.println(heroChoice("left"));
         System.out.println(heroChoice("right"));
         System.out.println(heroChoice("straight"));
@@ -19,10 +21,6 @@ public class Homework07 {
         System.out.println(heroChoice2(4));
         split();
 
-    }
-
-    private static void split() {
-        System.out.println("----------------------");
     }
 
     public static String heroChoice(String way) {
@@ -74,7 +72,6 @@ public class Homework07 {
         return result;
     }
 
-
     public static String speedLimit2(int speed) {
         if (speed <= 50) {
             return "Нет нарушений";
@@ -103,5 +100,9 @@ public class Homework07 {
         } else if (speed > 130) {
             System.out.println("штраф в 1000 евро, конфискация прав на 3 года и конфискация транспортного средства");
         }
+    }
+
+    public static void split() {
+        System.out.println("----------------------");
     }
 }

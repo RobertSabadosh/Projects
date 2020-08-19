@@ -1,7 +1,9 @@
 package lesson07;
 
 public class HelloModulo {
+
     public static void main(String[] args) {
+
         int a = 10;
         int b = 1000;
         int c = a / b;
@@ -12,5 +14,4 @@ public class HelloModulo {
         int f = 56 % 24;
         System.out.println(f);
     }
-
 }

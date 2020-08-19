@@ -1,11 +1,12 @@
 public class MagicMain {
+
     public static void main(String[] args) {
+
         String arguments = args[0];
         simpleIf(arguments);
-
     }
 
-    private static void simpleIf(String arguments) {
+    public static void simpleIf(String arguments) {
     }
 
     public static void sss (String[] args){
@@ -13,5 +14,4 @@ public class MagicMain {
             System.out.println("My arguments = " + str);
         }
     }
-
 }

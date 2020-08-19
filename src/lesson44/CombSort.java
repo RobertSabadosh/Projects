@@ -30,7 +30,7 @@ public class CombSort {
             for (int i = 0; step + i < arr.length; i++) {
                 if (arr[i] > arr[i + step]) {
                     swap(arr, i, i + step);
-                   /* swapped = true;*/
+                    /* swapped = true;*/
                 }
             }
             /*if (!swapped) {

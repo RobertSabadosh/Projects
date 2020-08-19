@@ -6,7 +6,6 @@ public class OneMoreArrayExercise {
 
         create();
         System.out.println(arraySum(create()));
-
     }
 
     public static int[][] create() {

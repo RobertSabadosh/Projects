@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class CocktailSort {
 
     public static void main(String[] args) {
+
         int[] array = createArray(20);
         System.out.println("Оригинал массива " + Arrays.toString(array));
         int[] newArray = myNewCopyArray(array);
@@ -14,7 +15,7 @@ public class CocktailSort {
         System.out.println("Коктейльная сортировка " + Arrays.toString(cocktailSort(newArray1)));
     }
 
-    private static int[] cocktailSort(int[] array) {
+    public static int[] cocktailSort(int[] array) {
         int count = 0;
         int start = 0;
         int end = array.length - 1;
@@ -47,7 +48,7 @@ public class CocktailSort {
         return array;
     }
 
-    private static int[] myNewCopyArray(int[] array) {
+    public static int[] myNewCopyArray(int[] array) {
         int[] copy = new int[array.length];
         for (int i = 0; i < array.length; i++) {
             copy[i] = array[i];
@@ -55,7 +56,7 @@ public class CocktailSort {
         return copy;
     }
 
-    private static int[] bubbleSort(int[] array) {
+    public static int[] bubbleSort(int[] array) {
         int count = 0;
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] > array[i + 1]) {
@@ -71,7 +72,7 @@ public class CocktailSort {
         return array;
     }
 
-    private static int[] createArray(int length) {
+    public static int[] createArray(int length) {
         int[] myArray = new int[length];
         for (int i = 0; i < length; i++) {
             myArray[i] = (int) (Math.random() * 100);

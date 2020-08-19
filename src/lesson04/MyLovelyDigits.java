@@ -1,7 +1,9 @@
 package lesson04;
 
 public class MyLovelyDigits {
+
     public static void main(String[] args) {
+
         myDouble();
     }
 
@@ -13,8 +15,6 @@ public class MyLovelyDigits {
 
         double myTestVariable = 32423.346543564;
         System.out.println("что то распечатываем" + myLovelyRound(myTestVariable));
-
-
     }
 
     public static double myLovelyRound(double digitsToRound) {
@@ -36,6 +36,4 @@ public class MyLovelyDigits {
 
         return temp0;
     }
-
-
 }

@@ -1,9 +1,11 @@
 package homeworks;
 
 public class Homework03 {
+
     private static final double PI = 3.14;
 
     public static void main(String[] args) {
+
         circleArea();
         skip();
         circumferenceOfCircle();
@@ -54,6 +56,4 @@ public class Homework03 {
         double res = cash + (cash * interestRate * years);
         System.out.println(res);
     }
-
-
 }

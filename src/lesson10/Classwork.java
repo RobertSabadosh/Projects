@@ -1,7 +1,9 @@
 package lesson10;
 
 public class Classwork {
+
     public static void main(String[] args) {
+
         String student1 = "Даша";
         String student2 = "саша";
         String student3 = "Маша";
@@ -17,7 +19,7 @@ public class Classwork {
     public static double schoolNotes(String name) {
         name = name.toLowerCase();
         double result = 0.0;
-        switch (name){
+        switch (name) {
             case "даша":
                 result = 5;
                 break;
@@ -37,7 +39,6 @@ public class Classwork {
                 result = 0.0;
                 break;
         }
-
         return result;
     }
 }

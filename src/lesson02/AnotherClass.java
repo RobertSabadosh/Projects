@@ -1,7 +1,9 @@
 package lesson02;
 
 public class AnotherClass {
+
     public static void main(String[] args) {
+
         //addition();
         //shoppingList();
 
@@ -21,4 +23,3 @@ public class AnotherClass {
         System.out.println("Сахар");
     }
 }
-

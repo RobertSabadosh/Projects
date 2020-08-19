@@ -3,6 +3,7 @@ package lesson20;
 public class HW15 {
 
     public static void main(String[] args) {
+
         String str1 = "Василий";
         String str2 = "Василиса";
 
@@ -12,14 +13,15 @@ public class HW15 {
         System.out.println(str1.contains("В"));
         System.out.println(str1.contains("Василий"));
         System.out.println(str1.contains(str2));
+
         split();
         //endsWith(String suffix)
         System.out.println("endsWith");
         System.out.println(str1.endsWith("ий"));
         System.out.println(str1.endsWith("илий"));
         System.out.println(str1.endsWith("Вас"));
-        split();
 
+        split();
         // equals(Object anObject)
         System.out.println("equals");
         System.out.println(str1.equals(str2));
@@ -36,7 +38,6 @@ public class HW15 {
         System.out.println("isEmpty()");
         System.out.println(str1.isEmpty());
         System.out.println("".isEmpty());
-
 
         split();
         // length()

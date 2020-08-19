@@ -5,6 +5,7 @@ public class TilesApplication {
     final static double MASTER_PRICE_PRO_METER = 27.0;
 
     public static void start(double rWidth, double rLength, double tilesPrice) {
+
         double tilesWidth = 20.0; // сантиметры
         double tilesLength = 30.0;  // сантиметры
         double square = rLength * rWidth;
@@ -42,15 +43,15 @@ public class TilesApplication {
         System.out.println("Из них поломанных - " + tilesBroken);
     }
 
-    private static double getMeSumWorkHour(double square) {
+    public static double getMeSumWorkHour(double square) {
         return square * MASTER_PRICE_PRO_METER;
     }
 
-    private static double getMeMaterialCost(double priceTiles, int quantity) {
+    public static double getMeMaterialCost(double priceTiles, int quantity) {
         return priceTiles * quantity;
     }
 
-    private static int getMeWholeTilesQuantity(double roomLength, double roomWidth, double tilesLength, double tilesWidth) {
+    public static int getMeWholeTilesQuantity(double roomLength, double roomWidth, double tilesLength, double tilesWidth) {
         tilesLength = tilesLength / 100;
         tilesWidth = tilesWidth / 100;
         int lineLength = (int) Math.floor(roomLength / tilesLength);
@@ -59,7 +60,7 @@ public class TilesApplication {
         return result;
     }
 
-    private static int getMeTilesQuantity(double roomLength, double roomWidth, double tilesLength, double tilesWidth) {
+    public static int getMeTilesQuantity(double roomLength, double roomWidth, double tilesLength, double tilesWidth) {
         tilesLength = tilesLength / 100;
         tilesWidth = tilesWidth / 100;
         int lineLength = (int) Math.ceil(roomLength / tilesLength);

@@ -1,6 +1,7 @@
 package lesson14;
 
 public class Exercises3000 {
+
     public static void main(String[] args) {
 
         findMagicNumber();

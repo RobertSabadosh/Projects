@@ -10,7 +10,7 @@ public class Password {
         return pass;
     }
 
-    private static String genAlphabetAndNumeric() {
+    public static String genAlphabetAndNumeric() {
         String result = "";
         String input = "1234567890Авкгйфдфлгкйх!§%%&&&?:%фдлгйевоиревфжмьйдхкфгехортуиреофихадск";
         int myRandom = (int) (Math.random() * (input.length() - 1) + 1);
@@ -19,17 +19,17 @@ public class Password {
         return result;
     }
 
-    private static int genDigit() {
+    public static int genDigit() {
         int result = (int) (Math.random() * 10);
         return result;
     }
 
-    private static char genChar() {
+    public static char genChar() {
         int myRandom = (int) (Math.random() * ((90 - 65) + 1) + 65);
         return (char) myRandom;
     }
 
-    private static String genString() {
+    public static String genString() {
         String result = "";
         double test = Math.random();
         boolean variable = false;

@@ -24,7 +24,6 @@ public class Classwork {
 //        System.out.println(starOut("ab*cd")); // "ad"
 //        System.out.println(starOut("ab**cd")); // "ad"
 //        System.out.println(starOut("sm*eilly")); // "silly"
-
     }
 
     /*Given a string, count the number of words ending in 'y' or 'z' -- so the 'y' in "heavy" and the 'z' in "fez" count, but not the 'y'

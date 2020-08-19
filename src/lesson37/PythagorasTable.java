@@ -1,10 +1,10 @@
 package lesson37;
 
-public class PifagorTable {
+public class PythagorasTable {
 
     public static void main(String[] args) {
-        printTwoDimensionalArray(createMT(10));
 
+        printTwoDimensionalArray(createMT(10));
     }
 
     public static void printTwoDimensionalArray(int[][] array) {

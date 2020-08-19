@@ -13,7 +13,6 @@ public class MyLovelyRecursion {
         System.out.println(bunnyEars2(0)); // 0
         System.out.println(bunnyEars2(1)); // 2
         System.out.println(bunnyEars2(2)); // 5
-
     }
 
     public static int bunnyEars2Simple(int rabbit) {
@@ -34,6 +33,5 @@ public class MyLovelyRecursion {
             return 2 + bunnyEars2(rabbit - 1);
         }
         return 3 + bunnyEars2(rabbit - 1);  // остались только четные
-
     }
 }

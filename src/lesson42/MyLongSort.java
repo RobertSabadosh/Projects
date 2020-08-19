@@ -11,9 +11,8 @@ public class MyLongSort {
 
     }
 
-    public static long[]  createLongArray(int length){
+    public static long[] createLongArray(int length) {
         long[] output = new long[length];
-
         return output;
     }
 }

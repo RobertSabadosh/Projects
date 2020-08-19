@@ -5,6 +5,7 @@ public class CharSwapExercise {
     static int count = 0;
 
     public static void main(String[] args) {
+
         char[] myArray = createArray(33);
         myPrint(myArray);
         char[] shakeArray = getShake(myArray);
@@ -21,7 +22,6 @@ public class CharSwapExercise {
                 newPlace = (int) (Math.random() * result.length);
                 count++;
             }
-
             result[newPlace] = eingabe[i];
         }
         System.out.println(count);

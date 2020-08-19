@@ -1,7 +1,9 @@
 package lesson04;
 
 public class HelloChar {
+
     public static void main(String[] args) {
+
         goodMorningChar();
     }
 

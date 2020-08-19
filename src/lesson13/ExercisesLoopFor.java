@@ -2,6 +2,7 @@ package lesson13;
 
 public class ExercisesLoopFor {
     public static void main(String[] args) {
+
         //rectangle(7, 5);
         //floydsTriangle(10);
         //johnDo();
@@ -44,7 +45,6 @@ public class ExercisesLoopFor {
                     }
                 }
             }
-
         }
     }
 

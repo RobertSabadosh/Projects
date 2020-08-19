@@ -3,6 +3,7 @@ package homeworks;
 public class Homework06 {
 
     public static void main(String[] args) {
+
         int clientAge1 = 10;
         int clientAge2 = 17;
         int clientAge3 = 18;
@@ -28,10 +29,6 @@ public class Homework06 {
         String whichSeason = seasons(month5);
         System.out.println(whichSeason);
 
-    }
-
-    private static void split() {
-        System.out.println("------------------------");
     }
 
     public static String cashiersAction(int clientAge) {
@@ -81,5 +78,9 @@ public class Homework06 {
 
         }
         return result;
+    }
+
+    public static void split() {
+        System.out.println("------------------------");
     }
 }

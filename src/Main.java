@@ -2,20 +2,16 @@ import lesson04.Calculator;
 
 public class Main {
 
-
     public static void main(String[] args) {
+
         split();
-        String s1="javatpoint is a very good website";
-        String replaceString=s1.replace('a','e');//replaces all occurrences of a to e
+        String s1 = "javatpoint is a very good website";
+        String replaceString = s1.replace('a', 'e');//replaces all occurrences of a to e
         System.out.println(replaceString);
-
     }
-
-
 
     public static void customerInfo() {
         //System.out.println("С вас 3,60€!");
-
     }
 
     public static String minCat(String str1, String str2) {
@@ -30,7 +26,7 @@ public class Main {
         }
     }
 
-    public static void split(){
+    public static void split() {
         System.out.println("-------------------------");
     }
 
@@ -42,7 +38,6 @@ public class Main {
         System.out.print("ln = New Line");
         System.out.print("\n");
         System.out.print("\u0423\u0440\u0430 \n");
-
     }
 
     public static void main(String[] args) {

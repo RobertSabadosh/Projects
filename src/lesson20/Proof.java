@@ -3,9 +3,10 @@ package lesson20;
 public class Proof {
 
     public static void main(String[] args) {
+
         printMyStrDigitTimes("test", 19);
 
-        int myPermis = 56;
+        int myPermission = 56;
     }
 
     private static void printMyStrDigitTimes(String str, int digit) {

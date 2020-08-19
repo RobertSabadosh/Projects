@@ -1,7 +1,9 @@
 package homeworks;
 
 public class Homework05 {
+
     public static void main(String[] args) {
+
         boolean a = (7 + 8) * 5 > 7 + 8 * 5;
         System.out.println(a);
 

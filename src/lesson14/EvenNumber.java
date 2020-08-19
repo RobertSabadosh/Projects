@@ -7,17 +7,17 @@ public class EvenNumber {
         lstMeEvenNumber(45);
     }
 
-    public static void listMeOddNumber(int range){
+    public static void listMeOddNumber(int range) {
         for (int i = 0; i < range; i++) {
-            if (!findEvenNumber(i)){
+            if (!findEvenNumber(i)) {
                 System.out.println(i);
             }
         }
     }
 
-    public static void lstMeEvenNumber(int range){
+    public static void lstMeEvenNumber(int range) {
         for (int i = 0; i < range; i++) {
-            if (findEvenNumber(i)){
+            if (findEvenNumber(i)) {
                 System.out.println(i);
             }
         }

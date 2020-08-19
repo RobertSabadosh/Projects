@@ -3,6 +3,7 @@ package lesson39;
 public class Tiles {
 
     public static void main(String[] args) {
+
         // 1 working hour = 27€
         // 1 tile = 30*20 cm;
         // 1 hour = 1 m²;

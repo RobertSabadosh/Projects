@@ -3,6 +3,7 @@ package lesson30;
 public class GoodMorningArraysDayTwo {
 
     public static void main(String[] args) {
+
         int myRandom = (int) (Math.random() * 100);
         int[] a1 = new int[myRandom];
         //System.out.println(a1.length);
@@ -34,7 +35,7 @@ public class GoodMorningArraysDayTwo {
         System.out.println("Минимальное значение элементов массива " + min);*/
     }
 
-    private static int findAverage(int[] inputArray) {
+    public static int findAverage(int[] inputArray) {
         int sum = 0;
         for (int elementik : inputArray) {
             sum = sum + elementik;
@@ -42,7 +43,7 @@ public class GoodMorningArraysDayTwo {
         return sum / inputArray.length;
     }
 
-    private static int findMin(int[] inputArray) {
+    public static int findMin(int[] inputArray) {
         int min = inputArray[0];
         for (int j : inputArray) {
             if (min > j) {
@@ -52,7 +53,7 @@ public class GoodMorningArraysDayTwo {
         return min;
     }
 
-    private static int findMax(int[] inputArray) {
+    public static int findMax(int[] inputArray) {
         int max = inputArray[0];
         for (int j : inputArray) {
             if (max < j) {

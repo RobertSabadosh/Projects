@@ -24,13 +24,11 @@ public class ArrayExercise {
         printArray(makeEnds(b1)); // [1, 3]
         printArray(makeEnds(b2)); // [1, 4]
         printArray(makeEnds(b3)); // [7, 2]
-
-
     }
 
     /*Given an array of ints length 3, figure out which is larger, the first or last element in the array, and set all the other elements
     to be that value. Return the changed array.*/
-    private static int[] maxEnd3(int[] arr) {
+    public static int[] maxEnd3(int[] arr) {
         if (arr[0] > arr[arr.length - 1]) {
             arr[1] = arr[0];
             arr[2] = arr[0];
@@ -48,7 +46,7 @@ public class ArrayExercise {
         return input;
     }
 
-    private static int[] maxEnd3Universal(int[] arr) {
+    public static int[] maxEnd3Universal(int[] arr) {
         if (arr[0] > arr[arr.length - 1]) {
             fillArray(arr, arr[0]);
         } else if (arr[0] < arr[arr.length - 1]) {
@@ -67,6 +65,4 @@ public class ArrayExercise {
         //output[1] = arr[arr.length - 1];
         return output;
     }
-
-
 }

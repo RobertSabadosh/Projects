@@ -3,6 +3,7 @@ package lesson38;
 public class Main {
 
     public static void main(String[] args) {
+
         char symbol = 'Ж';
         String space = " ";
         int a = 5;

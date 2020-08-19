@@ -7,7 +7,7 @@ public class TwoDimensionalArrays {
         int[][] array = new int[5][6];
         createArray(array);
         printOneLine(array);
-        PifagorTable.printTwoDimensionalArray(array);
+        PythagorasTable.printTwoDimensionalArray(array);
     }
 
     public static int[][] createArray(int[][] arr) {

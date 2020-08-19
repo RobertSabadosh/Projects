@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class MyFirstGame {
     public static void main(String[] args) {
+
         startGame();
     }
 
@@ -14,7 +15,7 @@ public class MyFirstGame {
         myGame(tryAndCry, computerDigit);
     }
 
-    private static void myGame(int tryAndCry, int computerDigit) {
+    public static void myGame(int tryAndCry, int computerDigit) {
         int userTries;
         boolean checkWin = false;
         Scanner input = new Scanner(System.in);
@@ -38,22 +39,21 @@ public class MyFirstGame {
         }
     }
 
-    private static int getMeTries() {
+    public static int getMeTries() {
         Scanner input = new Scanner(System.in);
         System.out.println("Пожалуйста введите число попыток для отгадывания, например 5");
         int userSecondNumber = input.nextInt();
         return userSecondNumber;
     }
 
-    private static int getMeRange() {
+    public static int getMeRange() {
         Scanner input = new Scanner(System.in);
         System.out.println("Пожалуйста введите диапазон чисел для игры, например 100");
         int userFirstNumber = input.nextInt();
         return userFirstNumber;
     }
 
-    private static int createDigit(int range) {
+    public static int createDigit(int range) {
         return (int) (Math.random() * ((range - 1) + 1)) + 1;
     }
 }
-

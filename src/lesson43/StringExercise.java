@@ -1,60 +1,84 @@
 package lesson43;
 
+import java.util.Arrays;
+
 public class StringExercise {
 
     public static void main(String[] args) {
-
-        System.out.println(xyzMiddle("AAxyzBB")); // true
-        System.out.println(xyzMiddle("AxyzBB")); // true
-        System.out.println(xyzMiddle("AAxyBBB")); // false
-
-        int[] a1 = new int[]{1, 2, 1, 1, 3};
-        int[] a2 = new int[]{1, 4, 2, 1, 4, 1, 4};
-        int[] a3 = new int[]{1, 4, 2, 1, 4, 4, 4};
-        System.out.println(maxSpan(a1)); // 4
-        System.out.println(maxSpan(a2)); // 6
-        System.out.println(maxSpan(a3)); // 6
-
-        System.out.println(compareArraysElements(a1));
-
+        byte[] array = createByteArray(20);
+        System.out.println("Оригинал       " + Arrays.toString(array));
+        byte[] newArray = myNewCopyArray(array);
+        byte[] cocktailArray = myNewCopyArray(array);
+        System.out.println("Copy Array     " + Arrays.toString(newArray));
+        System.out.println("bubbleSort     " + Arrays.toString(bubbleSort(newArray)));
+        System.out.println("Cocktail Array " + Arrays.toString(cocktailSort(cocktailArray)));
     }
 
-    public static boolean xyzMiddle(String input) {
-        int startRange = input.indexOf('x');
-        int endRange = input.length() - input.indexOf('z') - 1;
-        return Math.abs(endRange - startRange) <= 1;
-    }
-
-    public static int myIndexOf(char inputChar, String input) {
-        int index = -1;
-        for (int i = 0; i < input.length(); i++) {
-            if (input.charAt(i) == inputChar) {
-                index = i;
-            }
-        }
-        return index;
-    }
-
-    private static int compareArraysElements(int[] array) {
-        int span = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
-                if (array[i] == array[j]) {
-                    if (span < j - i) {
-                        span = j - i + 1;
-                    }
+    private static byte[] cocktailSort(byte[] array) {
+        byte count = 0;
+        byte start = 0;
+        byte end = (byte) (array.length - 1);
+        while (start <= end) {
+            boolean swapped = false;
+            for (int i = start; i < end; i++) {
+                if (array[i] < array[i + 1]) {
+                    byte temp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
+                    swapped = true;
                 }
             }
+            end--;
+            for (int j = end; j > start; j--) {
+                if (array[j] > array[j - 1]) {
+                    byte temp = array[j - 1];
+                    array[j - 1] = array[j];
+                    array[j] = temp;
+                    swapped = true;
+                }
+            }
+            start++;
+            count++;
+            if (!swapped) {
+                break;
+            }
         }
-        return span;
+        return array;
     }
 
-    public static int maxSpan(int[] input) {
-        int value = 0;
-        int span = 0;
-        for (int i = 0; i < input.length; i++) {
-
+    private static byte[] myNewCopyArray(byte[] array) {
+        byte[] copy = new byte[array.length];
+        for (int i = 0; i < array.length; i++) {
+            copy[i] = array[i];
         }
-        return 0;
+        return copy;
     }
+
+    public static byte[] bubbleSort(byte[] array) {
+        int count = 0;
+        for (byte i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
+                byte temp = array[i];
+                array[i] = array[i + 1];
+                array[i + 1] = temp;
+                count++;
+            }
+        }
+        if (count > 0) {
+            bubbleSort(array);
+        }
+
+        return array;
+    }
+
+    private static byte[] createByteArray(int length) {
+        byte[] array = new byte[length];
+        for (int i = 0; i < length; i++) {
+            array[i] = (byte) (Math.random() * 100);
+        }
+
+        return array;
+    }
+
+
 }

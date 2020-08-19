@@ -3,17 +3,16 @@ package lesson14;
 public class Classwork {
 
     public static void main(String[] args) {
+
         //findHappyDumpling();
         //findVariables();
         //myLine();
         //alphabet();
         //fibonacci();
         System.out.println(reverseNumber(123));
-
     }
 
     public static int sum(int number) {
-
         return 0;
     }
 

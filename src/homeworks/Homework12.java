@@ -3,7 +3,9 @@ package homeworks;
 import static homeworks.UniversalMethod.split;
 
 public class Homework12 {
+
     public static void main(String[] args) {
+
         int n = 10;
         mirroredTriangle(n);
         split();

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MyFloatArray {
 
-    static int COUNT =0;
+    static int COUNT = 0;
 
     public static void main(String[] args) {
 

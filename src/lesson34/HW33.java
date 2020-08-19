@@ -50,8 +50,6 @@ public class HW33 {
         System.out.println(Arrays.toString(plusTwo(c1, c2))); // [1, 2, 3, 4]
         System.out.println(Arrays.toString(plusTwo(c3, c4))); // [4, 4, 2, 2]
         System.out.println(Arrays.toString(plusTwo(c5, c6))); // [9, 2, 3, 4]
-
-
     }
 
     /*Given an int array, return a new array with double the length where its last element is the same as the original array, and all

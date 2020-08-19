@@ -1,7 +1,9 @@
 package lesson02;
 
 public class ReviewInteger {
+
     public static void main(String[] args) {
+
         // System.out.println("Периметр квадрата = " + (4 * 10));
         // helloInteger();
         // helloByte();

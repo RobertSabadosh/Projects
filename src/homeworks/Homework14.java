@@ -68,7 +68,7 @@ public class Homework14 {
     }
 
     public static int digitsSum2(int number) {
-        return ((number%10) + (number/10%10) + (number/100));
+        return ((number % 10) + (number / 10 % 10) + (number / 100));
     }
 
     public static void split() {

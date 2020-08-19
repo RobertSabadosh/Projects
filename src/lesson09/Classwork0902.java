@@ -1,7 +1,9 @@
 package lesson09;
 
 public class Classwork0902 {
+
     public static void main(String[] args) {
+
         System.out.println(nearHundred1(93)); // ожидаем true
         System.out.println(nearHundred1(90)); // ожидаем true
         System.out.println(nearHundred1(89)); // ожидаем false

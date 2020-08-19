@@ -3,14 +3,14 @@ package lesson19;
 public class StringDos {
 
     public static void main(String[] args) {
+
         System.out.println(countCode("aaacodebbb")); // 1
         System.out.println(countCode("codexxcode")); // 2
         System.out.println(countCode("cozexxcope")); // 2
         System.out.println(countCode("cozexxcope")); // 2
-
     }
 
-    private static int countCode(String input) {
+    public static int countCode(String input) {
         String benchmark = "code";
         char c0 = 'c';
         char c1 = 'o';

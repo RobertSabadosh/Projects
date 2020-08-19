@@ -1,7 +1,9 @@
 package lesson05;
 
 public class GoodMorningBoolean {
+
     public static void main(String[] args) {
+
         System.out.println("Разрешение на прогулку " + walking(26));
 /*        int standart = 0;
         String sts = "";

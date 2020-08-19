@@ -3,6 +3,7 @@ package lesson39;
 public class SearchFor {
 
     public static void main(String[] args) {
+
         for (int i = 0; i < 20; i++) {
             //while (i == 4) {
             if (i == 4) {

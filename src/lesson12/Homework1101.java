@@ -3,13 +3,12 @@ package lesson12;
 public class Homework1101 {
 
     public static void main(String[] args) {
+
         //homework11_1();
         //homework11_2(10, 5);
         //homework11_3(5, 17);
         //homework11_4();
         homework11_5(10);
-
-
     }
 
     public static void homework11_1() {
@@ -30,13 +29,13 @@ public class Homework1101 {
         }
     }
 
-    public static void homework11_4(){
+    public static void homework11_4() {
         for (int i = 3; i < 10; i++) {
             System.out.println(i);
         }
     }
 
-    public static void homework11_5(int line){
+    public static void homework11_5(int line) {
         String star = "*";
         String output = "";
         for (int i = 0; i < line; i++) {

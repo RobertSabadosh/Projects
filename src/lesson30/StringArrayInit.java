@@ -33,7 +33,7 @@ public class StringArrayInit {
         return result;
     }
 
-    private static char oneLetter() {
+    public static char oneLetter() {
         String source = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         return source.charAt((int) (Math.random() * source.length()));
     }

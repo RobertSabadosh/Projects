@@ -1,7 +1,9 @@
 package lesson12;
 
 public class Review {
+
     public static void main(String[] args) {
+
         int n = 10;
         triangle(n);
     }

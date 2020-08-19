@@ -3,23 +3,20 @@ package lesson39;
 public class MyBreak {
 
     public static void main(String[] args) {
-        boolean stopLockDown = true;
-        quarantineMethode(stopLockDown);
-        //quarantineMethode(!stopLockDown);
+
+        boolean stopLockdown = true;
+        quarantineMethod(stopLockdown);
+        //quarantineMethod(!stopLockdown);
     }
 
-    private static void quarantineMethode(boolean stopLockDown) {
+    private static void quarantineMethod(boolean stopLockDown) {
         // создание карантинной зоны
         int a = 10;
-
         {
             int temp = 7;
             a = a + temp;
-
         }
-
         System.out.println(a);
-
         quarantineZone:
         {
             if (stopLockDown) {

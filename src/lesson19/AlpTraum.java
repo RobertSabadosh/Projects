@@ -3,10 +3,11 @@ package lesson19;
 public class AlpTraum {
 
     public static void main(String[] args) {
+
         System.out.println(plusOut("Andrej", "an"));
     }
 
-    private static String plusOut(String bigWord, String shortWord) {
+    public static String plusOut(String bigWord, String shortWord) {
         String result = bigWord;
         // 1. первым в резалт записываем плюсы.  ++++++++
         // 2. два цикла вложенных где перепроверяем сибволы ИНПУТА бигворда и шортворд

@@ -45,7 +45,7 @@ public class Array02Exercises {
         return min;
     }
 
-    private static int sum67(int[] arr) {
+    public static int sum67(int[] arr) {
         int sum;
         int indexOfSix = findIndex(arr, 6);
         int indexOfSeven = findIndex(arr, 7);
@@ -66,7 +66,7 @@ public class Array02Exercises {
         return sum;
     }
 
-    private static int findIndex(int[] arr, int digit) {
+    public static int findIndex(int[] arr, int digit) {
         int index = -1;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == digit) {

@@ -1,7 +1,9 @@
 package lesson06;
 
 public class HelloSwitchCase {
+
     public static void main(String[] args) {
+
         int customerValue1 = 999;
         int customerValue2 = 5;
         int customerValue3 = 76;
@@ -48,4 +50,3 @@ public class HelloSwitchCase {
         return result;
     }
 }
-

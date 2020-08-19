@@ -1,7 +1,9 @@
 package lesson03;
 
 public class GoodMorningDouble {
+
     public static void main(String[] args) {
+
         // 3,5 => 3.5  100_34534_34534
         // helloDouble();
         // findSquareCircle();
@@ -48,11 +50,9 @@ public class GoodMorningDouble {
         System.out.println("Площадь найденная ручками = " + square);
         System.out.println("Площадь найденная Java = " + anotherSquare);
 
-//
-//          Тип	Максимальное позитивное значение	Минимальное позитивное значение	Размер (бит)
-        //        float	3.4028234663852886E+038	1.4012984643248171E-045	32
-        //      double	1.7976931348623157E+308	4.9406564584124654E-324	64
-
+          /*Тип Максимальное позитивное значение	Минимальное позитивное значение	Размер (бит)
+          float	3.4028234663852886E+038	1.4012984643248171E-045	32
+          double	1.7976931348623157E+308	4.9406564584124654E-324	64*/
     }
 
     public static void helloDoubleTwo() {

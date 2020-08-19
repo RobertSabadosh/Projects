@@ -1,7 +1,8 @@
 public class CoffeeVendingMachine {
     public static void main(String[] args) {
+
         String input = args[0];
-        switch (input){
+        switch (input) {
             case "hot water":
                 CoffeeRecipes.hotWater();
                 break;

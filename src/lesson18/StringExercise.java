@@ -29,8 +29,6 @@ public class StringExercise {
         System.out.println(countCode("aaacodebbb")); // 1
         System.out.println(countCode("codexxcode")); // 2
         System.out.println(countCode("cozexxcope")); // 2
-
-
     }
 
     public static String left2(String str) {
@@ -58,7 +56,6 @@ public class StringExercise {
                 System.out.println(i + j + " " + (bigWord.charAt(i) == shortWord.charAt(j)));
             }
         }
-
         return "";
     }
 
@@ -82,6 +79,4 @@ public class StringExercise {
         }
         return count;
     }
-
-
 }

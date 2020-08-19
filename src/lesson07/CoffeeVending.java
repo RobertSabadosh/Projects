@@ -3,6 +3,7 @@ package lesson07;
 public class CoffeeVending {
 
     public static void main(String[] args) {
+
         int customerChooseOne = 11;
         int customerChooseTwo = 12;
         int customerChooseThree = 13;
@@ -14,10 +15,9 @@ public class CoffeeVending {
         coffeeSwitch(customerChooseThree);
         split();
         coffeeSwitch(customerChooseFour);
-
     }
 
-    private static void split() {
+    public static void split() {
         System.out.println("-----------------------");
     }
 

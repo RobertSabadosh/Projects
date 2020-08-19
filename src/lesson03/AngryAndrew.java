@@ -2,7 +2,9 @@ package lesson03;
 
 
 public class AngryAndrew {
+
     public static void main(String[] args) {
+
         int var1 = 5;
         int var2 = 2;
         int var3 = var1 / var2;

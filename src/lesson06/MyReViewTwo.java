@@ -1,7 +1,9 @@
 package lesson06;
 
 public class MyReViewTwo {
+
     public static void main(String[] args) {
+
         //booleanReview();
         boolean идётДождь = false;
         boolean мыМожемКопать = !идётДождь;
@@ -26,7 +28,6 @@ public class MyReViewTwo {
         myNewJob = knowledge & freeWorkSpace;
         System.out.println(myNewJob);
 
-
         boolean permissionMother, permissionFather, walkingBoy;
         permissionFather = false;
         permissionMother = true;
@@ -34,16 +35,14 @@ public class MyReViewTwo {
         walkingBoy = permissionMother | permissionFather;
 
         System.out.println(walkingBoy);
-
-
     }
 
     public static void review1() {
         int countStudents = 1;
         byte countMoney; // 256 - -128 do 127
-        short firstvariable = 34;
-        short secondvariable = 34;
-        short s = (short) (secondvariable + firstvariable);
+        short firstVariable = 34;
+        short secondVariable = 34;
+        short s = (short) (secondVariable + firstVariable);
         long l = 57324590834L; // 2^63  - 1;
         int money = 10;
         int iphonePrise = 1000;
@@ -57,7 +56,7 @@ public class MyReViewTwo {
 
     public static void review2() {
         String myFirstShortString = "Мой пример строкового значения";
-        int dlina = myFirstShortString.length();
+        int length = myFirstShortString.length();
         String myNewString = myFirstShortString.substring(0, 15);
         System.out.println("Привет мир " + myFirstShortString);
 

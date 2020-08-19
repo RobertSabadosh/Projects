@@ -1,13 +1,15 @@
 package lesson39;
 
 public class IPlusPlusI {
+
     public static void main(String[] args) {
+
         basic();
         iPlus();
         plusI();
     }
 
-    private static void basic() {
+    public static void basic() {
         int i = 1;
         int j = 1;
         System.out.print(i++);

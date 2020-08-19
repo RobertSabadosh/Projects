@@ -3,6 +3,7 @@ package lesson13;
 public class Classwork013 {
 
     public static void main(String[] args) {
+
         int n = 10;
         //firstTriangle(n);
         secondTriangle(n);

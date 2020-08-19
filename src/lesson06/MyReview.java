@@ -1,11 +1,13 @@
 package lesson06;
 
 public class MyReview {
+
     // Найти соотношение площади Беларуси к площади Украины.
     // Belarus 207,595
     // Ukraine 603,628
 
     public static void main(String[] args) {
+
         relations();
         double eberswalde = 58.17;
         double oranienburg = 16364;

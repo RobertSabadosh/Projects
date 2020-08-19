@@ -8,10 +8,9 @@ public class Review {
         sum3("My first varargs", 2, 3, 4, 89);
         citiesTable("Berlin", "Munchen", "Dusseldorf", "Dresden");
         System.out.println(charToString('R', 'O', 'B', 'E', 'R', 'T'));
-
     }
 
-    private static int sum1(int[] input) {
+    public static int sum1(int[] input) {
         int sum = 0;
         for (int i = 0; i < input.length; i++) {
             sum += input[i];
@@ -19,7 +18,7 @@ public class Review {
         return sum;
     }
 
-    private static int sum2(int... allDigits) {
+    public static int sum2(int... allDigits) {
         int sum = 0;
         for (int i = 0; i < allDigits.length; i++) {
             sum += allDigits[i];
@@ -27,7 +26,7 @@ public class Review {
         return sum;
     }
 
-    private static void sum3(String name, int... allDigits) {
+    public static void sum3(String name, int... allDigits) {
         int sum = 0;
         for (int i = 0; i < allDigits.length; i++) {
             sum += allDigits[i];

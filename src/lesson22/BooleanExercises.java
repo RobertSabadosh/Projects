@@ -9,6 +9,7 @@ package lesson22;
 public class BooleanExercises {
 
     public static void main(String[] args) {
+
         /*System.out.println(cigarParty(30, false)); //false
         System.out.println(cigarParty(50, false));//true
         System.out.println(cigarParty(70, true));//true
@@ -78,11 +79,11 @@ public class BooleanExercises {
         return (class1 + class2) < 25;
     }
 
-    private static boolean verySmartDoor(boolean b0, boolean b1, boolean b2) {
+    public static boolean verySmartDoor(boolean b0, boolean b1, boolean b2) {
         return b0 || b1 || b2;
     }
 
-    private static boolean smartDoorCheckKey(boolean internet, boolean electricity, boolean simpleKey) {
+    public static boolean smartDoorCheckKey(boolean internet, boolean electricity, boolean simpleKey) {
         return !internet && !electricity && simpleKey;
     }
 

@@ -1,7 +1,9 @@
 package lesson02;
 
 public class Calculator {
+
     public static void main(String[] args) {
+
         helloLong();
         helloByte();
     }
@@ -28,9 +30,5 @@ public class Calculator {
         System.out.println(b);
         System.out.println(c);
         System.out.println(d);
-    }
-
-    public static void hallyHalloByte(){
-
     }
 }

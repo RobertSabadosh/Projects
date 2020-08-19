@@ -3,6 +3,7 @@ package lesson20;
 public class Exercises20 {
 
     public static void main(String[] args) {
+
         //multiplicationTable(3);
         //printLeapYear(2000, 2009);
         //System.out.println(countLeapYears(2000, 2009));

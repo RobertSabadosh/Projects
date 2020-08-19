@@ -6,7 +6,6 @@ public class GoodMorningArray {
 
         myFirstArray();
         germanCities();
-
     }
 
     public static void myFirstArray() {
@@ -50,7 +49,7 @@ public class GoodMorningArray {
                         "Frankfurt"
                 };
         int length = germanStates.length;
-        int allLetter =0;
+        int allLetter = 0;
         for (int i = 0; i < length; i++) {
             allLetter = allLetter + germanStates[i].length();
 

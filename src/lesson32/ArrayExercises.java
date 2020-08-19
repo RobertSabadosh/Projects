@@ -31,8 +31,6 @@ public class ArrayExercises {
         printArray(makeMiddle(b1)); // [2, 3]
         printArray(makeMiddle(b2)); // [2, 3]
         printArray(makeMiddle(b3)); // [1, 2]
-
-
     }
 
     /*Given an int array length 2, return true if it does not contain a 2 or 3.*/
@@ -59,5 +57,4 @@ public class ArrayExercises {
         output[0] = arr[arr.length / 2 - 1];
         return output;
     }
-
 }

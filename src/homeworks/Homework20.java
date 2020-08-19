@@ -3,16 +3,17 @@ package homeworks;
 public class Homework20 {
 
     public static void main(String[] args) {
-        System.out.println(citiWeather("Berlin", "Monday"));
-        System.out.println(citiWeather("London", "Tuesday"));
-        System.out.println(citiWeather("Lissabon", "Wednesday"));
-        System.out.println(citiWeather("Paris", "Thursday"));
-        System.out.println(citiWeather("Moscow", "Friday"));
-        System.out.println(citiWeather("Minsk", "Saturday"));
-        System.out.println(citiWeather("Saratov", "Sunday"));
+
+        System.out.println(cityWeather("Berlin", "Monday"));
+        System.out.println(cityWeather("London", "Tuesday"));
+        System.out.println(cityWeather("Lissabon", "Wednesday"));
+        System.out.println(cityWeather("Paris", "Thursday"));
+        System.out.println(cityWeather("Moscow", "Friday"));
+        System.out.println(cityWeather("Minsk", "Saturday"));
+        System.out.println(cityWeather("Saratov", "Sunday"));
     }
 
-    public static int citiWeather(String city, String weekday) {
+    public static int cityWeather(String city, String weekday) {
         int degreeUp = 0;
         switch (weekday) {
             case "Monday":
@@ -40,10 +41,10 @@ public class Homework20 {
                 degreeUp = 0;
                 break;
         }
-        return degreeUp + citiWeatherSimple(city) - 6;
+        return degreeUp + cityWeatherSimple(city) - 6;
     }
 
-    public static int citiWeatherSimple(String city) {
+    public static int cityWeatherSimple(String city) {
         int degree = 0;
 
         switch (city) {
@@ -74,6 +75,4 @@ public class Homework20 {
         }
         return degree + 6;
     }
-
-
 }

@@ -67,7 +67,7 @@ public class Homework32 {
     }
 
     /*Given an array of ints length 3, return the sum of all the elements.*/
-     public static int sum3(int[] arr) {
+    public static int sum3(int[] arr) {
         return arr[0] + arr[1] + arr[2];
     }
 }

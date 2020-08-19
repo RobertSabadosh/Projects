@@ -3,6 +3,7 @@ package lesson07;
 public class CoffeeRecipes {
 
     public static void latte() {
+
         System.out.println("---------------------");
         System.out.println("Ваш latte готов");
         milk(40);

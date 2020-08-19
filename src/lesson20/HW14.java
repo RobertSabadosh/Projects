@@ -3,6 +3,7 @@ package lesson20;
 public class HW14 {
 
     public static void main(String[] args) {
+
 /*        System.out.println(minCat("Hello", "Hi"));   //→ "loHi"
         System.out.println(minCat("Hello", "java")); //→ "ellojava"
         System.out.println(minCat("java", "Hello")); //→ "javaello"*/
@@ -19,7 +20,7 @@ public class HW14 {
         System.out.println(sumDigit(768)); // 21
     }
 
-    private static int sumDigit(int number) {
+    public static int sumDigit(int number) {
         String input = String.valueOf(number);
         int sum = 0;
         int length = input.length();
@@ -30,7 +31,7 @@ public class HW14 {
         return sum;
     }
 
-    private static int sumDigitString(int number) {
+    public static int sumDigitString(int number) {
         String input = String.valueOf(number);
         int sum = 0;
         for (int i = 0; i < input.length(); i++) {
@@ -41,7 +42,7 @@ public class HW14 {
         return sum;
     }
 
-    private static int loneSum(int a, int b, int c) {
+    public static int loneSum(int a, int b, int c) {
         if (a == b && b == c) {
             return 0;
         } else if (a == b) {
@@ -54,7 +55,7 @@ public class HW14 {
         return a + b + c;
     }
 
-    private static String doubleChar(String str) {
+    public static String doubleChar(String str) {
         String result = "";
         for (int i = 0; i <= str.length() - 1; i++) {
             result += str.charAt(i);
@@ -64,7 +65,7 @@ public class HW14 {
     }
 
 
-    private static String minCat(String s1, String s2) {
+    public static String minCat(String s1, String s2) {
         String output = "";
         if (s1.length() > s2.length()) {
             output = s1.substring(s1.length() - s2.length()) + s2;

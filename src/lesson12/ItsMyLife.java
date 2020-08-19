@@ -1,13 +1,14 @@
 package lesson12;
 
 public class ItsMyLife {
+
     public static void main(String[] args) {
+
         int weekDays = 5;
         myLife(weekDays);
         worker();
         System.out.println("-------------------------");
         myLittleFor();
-
     }
 
     public static void myLife(int amountWeekDays) {
@@ -25,7 +26,7 @@ public class ItsMyLife {
         }
     }
 
-    public static void worker(){
+    public static void worker() {
         String worker1 = "Даша";
         String worker2 = "Маша";
         String worker3 = "Саша";
@@ -43,14 +44,13 @@ public class ItsMyLife {
         salary(worker6ID);
     }
 
-    public static void salary(int countIDs){
-        for (int i = 0; i < countIDs; i++){
+    public static void salary(int countIDs) {
+        for (int i = 0; i < countIDs; i++) {
             System.out.println("Работник с ИД номер = " + " должен получить " + 1000 + i * countIDs);
         }
-
     }
 
-    public static void myLittleFor(){
+    public static void myLittleFor() {
         int a = 0;
         for (int i = 0; i < 10; i++) {
             a++;

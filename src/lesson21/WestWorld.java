@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class WestWorld {
 
     public static void main(String[] args) {
+
         game();
     }
 
@@ -14,7 +15,7 @@ public class WestWorld {
         guess(k, number);
     }
 
-    private static void guess(int k, int computerNumber) {
+    public static void guess(int k, int computerNumber) {
         int userTryGuess = 0;
         int answer = 0;
         Scanner input = new Scanner(System.in);
@@ -36,13 +37,13 @@ public class WestWorld {
         }
     }
 
-    private static int magicNumber(int range) {
+    public static int magicNumber(int range) {
         int number = (int) (Math.random() * ((range - 1) + 1)) + 1;
         //System.out.println(number);
         return number;
     }
 
-    private static int tryAndCry() {
+    public static int tryAndCry() {
         int k = 0;
         System.out.println("Какой уровень сложности вы хотите? \n" +
                 "Лёгкий(1)? Или для взрослых(2)? Введите 1 или 2");

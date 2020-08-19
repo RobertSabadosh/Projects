@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class FirstTryGame {
 
     public static void main(String[] args) {
+
         //helloUser();
         //system.out.print("Hello World");
         //Scanner input=new Scanner(System.in);

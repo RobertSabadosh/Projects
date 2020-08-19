@@ -5,7 +5,6 @@ public class Calendar {
     public static void main(String[] args) {
 
         createCalendar();
-
     }
 
     public static void createCalendar() {

@@ -5,6 +5,7 @@ import static homeworks.UniversalMethod.split;
 public class HW38 {
 
     public static void main(String[] args) {
+
         int[] a1 = new int[]{2, 1, 2, 3, 4};
         int[] a2 = new int[]{2, 2, 0};
         int[] a3 = new int[]{1, 3, 5};

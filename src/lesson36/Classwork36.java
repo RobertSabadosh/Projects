@@ -14,7 +14,6 @@ public class Classwork36 {
         System.out.println(Arrays.toString(fizzBuzz3(1, 6)));
         split();
         System.out.println(Arrays.toString(fizzBuzz3(15, 25)));
-
     }
 
     public static void fizzBuzz() {

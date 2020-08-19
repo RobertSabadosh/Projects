@@ -81,7 +81,7 @@ public class Homework43 {
         return array;
     }
 
-    public static void split(){
+    public static void split() {
         System.out.println("------------------------------------------------------------------------------");
     }
 }

@@ -1,7 +1,9 @@
 package lesson05;
 
 public class HelloBoolean {
+
     public static void main(String[] args) {
+
         int a = 1, b = 2;
         boolean bool = a <= b;
         System.out.println(bool);
@@ -12,15 +14,12 @@ public class HelloBoolean {
         // конъюнкция
         // логическое умножение, просто И, AND, & UND, &&
 
-
         boolean sun = true;
         boolean dad = false;
         boolean ice = sun & dad;
-        boolean ice2 = sun && dad^bool&!anotherBool;
+        boolean ice2 = sun && dad ^ bool & !anotherBool;
         System.out.println("Морожко " + ice);
         split();
-
-
 
         // a | b
         boolean mama = false;
@@ -39,13 +38,11 @@ public class HelloBoolean {
         // антиваленц
         // XOR, EOR, EXOR, ^, ИСКЛЮЧИТЕЛЬНОЕ ИЛИ
 
-
         boolean yes = true;
         boolean no = !yes;
 
         //Negation , NOT, !
         // b=!a;
-
     }
 
     public static void split() {

@@ -1,7 +1,9 @@
 package homeworks;
 
 public class Homework10 {
+
     public static void main(String[] args) {
+
         System.out.println(startWithHi("hi there")); // expecting true
         System.out.println(startWithHi("hi"));       // expecting true
         System.out.println(startWithHi("hello hi")); // expecting false

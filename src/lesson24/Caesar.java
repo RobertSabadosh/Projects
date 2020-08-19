@@ -3,6 +3,7 @@ package lesson24;
 public class Caesar {
 
     public static void main(String[] args) {
+
         String input = "Съешь же ещё этих мягких французских булок, да выпей чаю.";
         String output = "Фэзыя йз зьи ахлш пвёнлш чугрщцкфнлш дцосн, жг еютзм ъгб.";
         // "а" = г
@@ -55,7 +56,7 @@ public class Caesar {
         return result;
     }
 
-    private static char genCaesarCharNotEnough(char oneLetter) {
+    public static char genCaesarCharNotEnough(char oneLetter) {
         char outputPlusThree = (char) (oneLetter + 3);
         char result;
         switch (oneLetter) {

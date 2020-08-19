@@ -42,7 +42,7 @@ public class BooleanExercise {
 2=great. A party is good (1) if both tea and candy are at least 5. However, if either tea or candy is at least double the
     amount of the other one, the party is great (2). However, in all cases, if either tea or candy is less than 5, the party is always
     bad (0).*/
-    private static int teaParty(int tea, int candy) {
+    public static int teaParty(int tea, int candy) {
         if (tea < 5 || candy < 5)
             return 0;
         if (candy * 2 <= tea || tea * 2 <= candy)
@@ -51,20 +51,20 @@ public class BooleanExercise {
     }
 
     /*Given three ints, a b c, return true if it is possible to add two of the ints to get the third.*/
-    private static boolean twoAsOne(int a, int b, int c) {
+    public static boolean twoAsOne(int a, int b, int c) {
         return a + b == c || c + b == a || c + a == b;
     }
 
     /*Given three ints, a b c, return true if two or more of them have the same rightmost digit. The ints are non-negative. Note:
     the % "mod" operator computes the remainder, e.g. 17 % 10 is 7.*/
-    private static boolean lastDigit(int a, int b, int c) {
+    public static boolean lastDigit(int a, int b, int c) {
         return a % 10 == b % 10 || b % 10 == c % 10 || c % 10 == a % 10;
     }
 
     /*Given two int values, return whichever value is larger. However if the two values have the same remainder when divided by
 5, then the return the smaller value. However, in all cases, if the two values are the same, return 0. Note: the % "mod"
     operator computes the remainder, e.g. 7 % 5 is 2.*/
-    private static int maxMod5(int a, int b) {
+    public static int maxMod5(int a, int b) {
         if (a == b) {
             return 0;
         } else if (a % 5 > b % 5) {
@@ -82,7 +82,7 @@ public class BooleanExercise {
     /*You have a blue lottery ticket, with ints a, b, and c on it. This makes three pairs, which we'll call ab, bc, and ac. Consider the
     sum of the numbers in each pair. If any pair sums to exactly 10, the result is 10. Otherwise if the ab sum is exactly 10 more
     than either bc or ac sums, the result is 5. Otherwise the result is 0.*/
-    private static int blueTicket(int a, int b, int c) {
+    public static int blueTicket(int a, int b, int c) {
         if (a + b == 10 || b + c == 10 || c + a == 10) {
             return 10;
             //((a-c) == 10 || (b-a) == 10 || (a-b)==10
@@ -91,6 +91,4 @@ public class BooleanExercise {
         }
         return 0;
     }
-
-
 }

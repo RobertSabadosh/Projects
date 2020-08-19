@@ -3,6 +3,7 @@ package lesson39;
 public class MyReturn {
 
     public static void main(String[] args) {
+
         quarantine(false);
     }
 

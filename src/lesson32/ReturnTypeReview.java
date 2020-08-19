@@ -6,16 +6,16 @@ public class ReturnTypeReview {
 
     }
 
-    public static int sum(int a, int b){
-        return a+b;
+    public static int sum(int a, int b) {
+        return a + b;
     }
 
-    public static int findElement(int[] a){
+    public static int findElement(int[] a) {
         return a[0];
     }
 
-    public static int[] createArray(int a, int b){
-        int[] array = new int[]{a,b};
+    public static int[] createArray(int a, int b) {
+        int[] array = new int[]{a, b};
         return array;
     }
 }

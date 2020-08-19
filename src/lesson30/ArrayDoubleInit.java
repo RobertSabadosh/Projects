@@ -8,7 +8,6 @@ public class ArrayDoubleInit {
         //printDoubleArray(doubleArray01);
         double[] doubleArray02 = fillMyDoubleArray(doubleArray01);
         printDoubleArray(doubleArray02);
-
     }
 
     public static double myRound(double d) {
@@ -18,7 +17,7 @@ public class ArrayDoubleInit {
         //return (double) temp / 100;
     }
 
-    private static double[] fillMyDoubleArray(double[] myArray) {
+    public static double[] fillMyDoubleArray(double[] myArray) {
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = myRound(Math.random());
         }
