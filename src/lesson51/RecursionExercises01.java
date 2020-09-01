@@ -6,7 +6,7 @@ public class RecursionExercises01 {
 
     public static void main(String[] args) {
 
-        System.out.println(endX("xxre")); // "rexx"
+        System.out.println(endX("xxxre")); // "rexxx"
         System.out.println(endX("xxhixx")); // "hixxxx"
         System.out.println(endX("xhixhix")); // "hihixxx"
         split();
