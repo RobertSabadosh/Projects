@@ -4,7 +4,7 @@
 
 **Ссылка нужного Вам репозитория:** https://github.com/tel-ran-de/BC13-Morning
 
-![alt text](images/ForkRepo.PNG)
+![alt text](images\ForkRepo.PNG)
 
    **2. Клонирование репозитория**
 
