@@ -4,7 +4,7 @@
 
 **Ссылка нужного Вам репозитория:** https://github.com/tel-ran-de/BC13-Morning
 
-![alt text](images\ForkRepo.PNG)
+![alt text](images/ForkRepo.PNG)
 
    **2. Клонирование репозитория**
 
@@ -12,13 +12,13 @@
 
 Чтобы клонировать репозиторий, нажмите кнопку «Code» и скопируйте ссылку.
 
-![alt text](images\ClonedRepo.PNG)
+![alt text](images/ClonedRepo.PNG)
 
 Откройте терминал и запустите следующую команду. С её помощью репозиторий будет клонирован на Вашу машину.
 
 `$ git clone [HTTPS ADDRESS]`
 
-![alt text](images\ClonedRepoTerminal.PNG)
+![alt text](images/ClonedRepoTerminal.PNG)
 
 Теперь у Вас есть копия ветки «master» основного онлайн-репозитория проекта.
 
@@ -26,7 +26,7 @@
 
 `$ cd [NAME OF REPOSITORY]`
 
-![alt text](images\Move to directory.PNG)
+![alt text](images/Move to directory.PNG)
 
    **3. Создание ветки**
    
@@ -34,7 +34,7 @@
 
 **Обязательно:** перед тем как создать свою ветку, нужно перейти в ветку «master» (командой `git checkout master`) и уже с неё создать нужную Вам.
 
-![alt text](images\ChangeBranch.PNG)
+![alt text](images/ChangeBranch.PNG)
 
 Имя ветки должно быть коротким и отражать те изменения, которые Вы вносите.
 
@@ -44,25 +44,25 @@
 
 `$ git checkout -b [Branch Name]`
 
-![alt text](images\CreateBranch.PNG)
+![alt text](images/CreateBranch.PNG)
 
    **4. Внесение изменений и "коммит"**
    
 Внесите необходимы изменения в проект и сохраните их. Затем запустите команду `git status`: Вы увидите внесенные изменения.
 
-![alt text](images\GitStatus.PNG)
+![alt text](images/GitStatus.PNG)
 
 Добавьте эти изменения в только что созданную ветку при помощи команды `git add`:
 
 `$ git add [Write down the file name]`
 
-![alt text](images\GitAdd.PNG)
+![alt text](images/GitAdd.PNG)
 
 Теперь Вы можете сделать "коммит" этих изменений при помощи команды `git commit`:
 
 `$ git commit -m "Describe what you did"`
 
-![alt text](images\gitCommit.PNG)
+![alt text](images/gitCommit.PNG)
 
    **5. Отправка изменений на GitHub**
    
@@ -70,7 +70,7 @@
 
 `$ git remote`
 
-![alt text](images\GitRemote.PNG)
+![alt text](images/GitRemote.PNG)
 
 Имя данного удаленного репозитория — «origin».
 
@@ -78,20 +78,20 @@
 
 `$ git push origin [Branch Name]`
 
-![alt text](images\GitPush.PNG)
+![alt text](images/GitPush.PNG)
 
    **6. Создание пул-реквеста**
    
 Перейдите в свой репозиторий на GitHub. Там есть кнопка «Compare & pull request» — кликните её.
 
-![alt text](images\CompareAndPullRrequest.PNG)
+![alt text](images/CompareAndPullRrequest.PNG)
 
 **Обязательно:** в Вашем случае все "пул-реквесты" нужно отправлять в ветку — _hw-branch-for-pr_ — с ветки — _homework-numberOfHW-yourName_.
 
-![alt text](images\CorrectBranch.PNG)
+![alt text](images/CorrectBranch.PNG)
 
 Введите необходимые детали относительно того, что именно Вы сделали (чтобы, поставить ссылку на «issues», воспользуйтесь знаком «решётки - #»). После этого можно нажать кнопку подтверждения внизу.
 
-![alt text](images\PullRequestWithLink.PNG)
+![alt text](images/PullRequestWithLink.PNG)
 
 Поздравляю! Вы создали свой первый "пул-реквест". Если его примут, Вы получите уведомление по электронной почте.
